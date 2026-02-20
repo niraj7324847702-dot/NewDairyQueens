@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Dairy Queens 🍦 - Premium Ice Cream</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">👑 New Dairy Queens</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>👑 New Dairy Queens 🍦</h1>
+            <p>Experience Premium Ice Cream Like Never Before</p>
+            <button class="cta-button" onclick="scrollToMenu()">Explore Our Menu</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Delicious Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-icon">🍨</div>
+                    <h3>Classic Flavors</h3>
+                    <p>Vanilla, Chocolate, Strawberry, Mint Chocolate Chip, and more timeless favorites.</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-icon">🍦</div>
+                    <h3>Specialty Scoops</h3>
+                    <p>Lavender Honey, Salted Caramel Swirl, Cookie Dough Paradise, Matcha Green Tea.</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-icon">🍫</div>
+                    <h3>Premium Toppings</h3>
+                    <p>Chocolate Sauce, Fresh Fruits, Nuts, Cookies, Sprinkles, and Whipped Cream.</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-icon">🥤</div>
+                    <h3>Frozen Drinks</h3>
+                    <p>Milkshakes, Smoothies, Frozen Coffee, and our signature Ice Cream Floats.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About New Dairy Queens</h2>
+                    <p>Welcome to New Dairy Queens, where tradition meets innovation. We craft premium ice cream using only the finest ingredients sourced from trusted suppliers.</p>
+                    <p>Our mission is to bring joy and delight to every scoop. Whether you're a classic vanilla lover or an adventurous flavor explorer, we have something special waiting for you.</p>
+                    <ul class="features">
+                        <li>✨ 100% Natural Ingredients</li>
+                        <li>🌱 Eco-Friendly Practices</li>
+                        <li>👥 Family-Owned & Operated</li>
+                        <li>🏆 Award-Winning Flavors</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-image">🍦</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>📍 123 Dairy Lane, Ice Cream City, IC 12345</p>
+                <p>📞 (555) 123-4567</p>
+                <p>📧 hello@newdairyqueens.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 New Dairy Queens. All rights reserved. 👑🍦</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Instagram</a>
+                <a href="#" class="social-icon">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
